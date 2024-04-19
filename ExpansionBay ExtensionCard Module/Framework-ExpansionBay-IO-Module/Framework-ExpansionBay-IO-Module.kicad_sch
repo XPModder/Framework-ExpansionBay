@@ -1,0 +1,171 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bbb5f505-87d6-424e-99bb-0bdaee5adea4")
+	(paper "A4")
+	(title_block
+		(title "Framework Laptop 16 Expansion Bay Module")
+		(date "06. April 2024")
+		(rev "1.0")
+		(company "by XPModder")
+	)
+	(lib_symbols)
+	(sheet
+		(at 242.57 66.04)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "862f6cb9-b732-454f-bf11-9e50e3bbca49")
+		(property "Sheetname" "USB 3"
+			(at 242.57 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb3.kicad_sch"
+			(at 242.57 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Framework-ExpansionBay-IO-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 45.72)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9be671c0-017f-462b-810e-71994eb8078c")
+		(property "Sheetname" "Data Connectors"
+			(at 242.57 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dataConnector.kicad_sch"
+			(at 242.57 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Framework-ExpansionBay-IO-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 21.59)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6935336-063d-4b91-adf0-f6134e3c4c65")
+		(property "Sheetname" "Conn Power, Fan, USB 2.0 & USB 3.0 PD"
+			(at 242.57 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerConnect.kicad_sch"
+			(at 242.57 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Framework-ExpansionBay-IO-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 85.09)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abfc7ff3-ae71-43d6-bc5c-adbe3721d3c9")
+		(property "Sheetname" "USB PD"
+			(at 242.57 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_pd.kicad_sch"
+			(at 242.57 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Framework-ExpansionBay-IO-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

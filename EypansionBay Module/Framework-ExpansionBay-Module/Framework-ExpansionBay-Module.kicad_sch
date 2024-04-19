@@ -1,0 +1,4127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bbb5f505-87d6-424e-99bb-0bdaee5adea4")
+	(paper "A4")
+	(title_block
+		(title "Framework Laptop 16 Expansion Bay Module")
+		(date "06. April 2024")
+		(rev "1.0")
+		(company "by XPModder")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Framework-ExpansionBay:Framework-FX-Beam"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -10.16 96.52 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Framework-FX-Beam"
+				(at 0 -96.52 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Framework-ExpansionBay:Framework-FX-Beam"
+				(at -19.05 -58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/FrameworkComputer/ExpansionBay/blob/main/Electrical/Dual-channel%2074P%20FXBeam%2C%20length%2027.75mm%20_Rev%202_(Public%20version).pdf"
+				(at -19.05 -58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Framework Laptop 16 FX Beam PCIe interposer for Expansion Bay"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Framework-FX-Beam_1_1"
+				(rectangle
+					(start -11.43 95.25)
+					(end 10.16 -95.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -16.51 90.17 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 54.61 0)
+					(length 5.08)
+					(name "5V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 52.07 0)
+					(length 5.08)
+					(name "5V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 72.39 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 69.85 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 67.31 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 64.77 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 62.23 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 59.69 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 57.15 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -34.29 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 87.63 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -36.83 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 49.53 0)
+					(length 5.08)
+					(name "5V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 46.99 0)
+					(length 5.08)
+					(name "5V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -39.37 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -41.91 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -44.45 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -46.99 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -49.53 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -52.07 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -54.61 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 85.09 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -57.15 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -59.69 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -62.23 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -64.77 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 44.45 0)
+					(length 5.08)
+					(name "3.3V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 41.91 0)
+					(length 5.08)
+					(name "3.3V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 13.97 0)
+					(length 5.08)
+					(name "Fan1_PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 16.51 0)
+					(length 5.08)
+					(name "Fan0_PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 39.37 0)
+					(length 5.08)
+					(name "3.3V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 36.83 0)
+					(length 5.08)
+					(name "3.3V_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 82.55 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -67.31 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 19.05 0)
+					(length 5.08)
+					(name "12V_Fan"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -69.85 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -72.39 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "I2C_CLK_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "I2C_SDA_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -74.93 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -11.43 0)
+					(length 5.08)
+					(name "EXT_SSD1_RST#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -13.97 0)
+					(length 5.08)
+					(name "EXT_SSD2_RST#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -77.47 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 80.01 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -19.05 0)
+					(length 5.08)
+					(name "USB+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -21.59 0)
+					(length 5.08)
+					(name "USB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -80.01 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 34.29 0)
+					(length 5.08)
+					(name "VADP_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 31.75 0)
+					(length 5.08)
+					(name "VADP_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 29.21 0)
+					(length 5.08)
+					(name "VADP_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -82.55 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -85.09 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "I2C_INT_ALW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -16.51 0)
+					(length 5.08)
+					(name "EXT_SSD2_CLK_REQ#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 77.47 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 11.43 0)
+					(length 5.08)
+					(name "Fan0_SPEED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 8.89 0)
+					(length 5.08)
+					(name "Fan1_SPEED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "PWR_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "DDS_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 26.67 0)
+					(length 5.08)
+					(name "VADP_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 24.13 0)
+					(length 5.08)
+					(name "VADP_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 21.59 0)
+					(length 5.08)
+					(name "VADP_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -87.63 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -90.17 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -92.71 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 74.93 0)
+					(length 5.08)
+					(name "VSYS_GPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -24.13 0)
+					(length 5.08)
+					(name "GPIO0_EC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -26.67 0)
+					(length 5.08)
+					(name "GPIO1_EC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 92.71 0)
+					(length 5.08)
+					(name "ID0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "DDS_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "PWR_GOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -29.21 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -31.75 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P-9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Framework-FX-Beam_2_1"
+				(rectangle
+					(start -11.43 95.25)
+					(end 10.16 -95.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 69.85 0)
+					(length 5.08)
+					(name "PEX_RX1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 64.77 0)
+					(length 5.08)
+					(name "PEX_TX1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 62.23 0)
+					(length 5.08)
+					(name "PEX_TX1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "DP_A_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -57.15 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "DP_A_L1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -11.43 0)
+					(length 5.08)
+					(name "DP_A_L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -59.69 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "DP_A_L0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "DP_A_L0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -62.23 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 67.31 0)
+					(length 5.08)
+					(name "PEX_RX1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -24.13 0)
+					(length 5.08)
+					(name "DP_A_AUX#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -26.67 0)
+					(length 5.08)
+					(name "DP_A_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -31.75 0)
+					(length 5.08)
+					(name "GPIO3_EC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 49.53 0)
+					(length 5.08)
+					(name "PEX_RX3N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 46.99 0)
+					(length 5.08)
+					(name "PEX_RX3P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -64.77 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 59.69 0)
+					(length 5.08)
+					(name "PEX_RX2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 57.15 0)
+					(length 5.08)
+					(name "PEX_RX2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -67.31 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 52.07 0)
+					(length 5.08)
+					(name "PEX_TX2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -49.53 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 54.61 0)
+					(length 5.08)
+					(name "PEX_TX2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -69.85 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 44.45 0)
+					(length 5.08)
+					(name "PEX_TX3N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 41.91 0)
+					(length 5.08)
+					(name "PEX_TX3P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 85.09 0)
+					(length 5.08)
+					(name "PEX_RST#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -36.83 0)
+					(length 5.08)
+					(name "TH_ALERT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -41.91 0)
+					(length 5.08)
+					(name "PNL_PWR_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -39.37 0)
+					(length 5.08)
+					(name "TH_OVERT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 82.55 0)
+					(length 5.08)
+					(name "PEX_CLK_REQ#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -34.29 0)
+					(length 5.08)
+					(name "DGPU_PWM_SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 80.01 0)
+					(length 5.08)
+					(name "PEX_RX0N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -46.99 0)
+					(length 5.08)
+					(name "PNL_BL_PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -44.45 0)
+					(length 5.08)
+					(name "PNL_BL_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 36.83 0)
+					(length 5.08)
+					(name "PEX_RX4P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 39.37 0)
+					(length 5.08)
+					(name "PEX_RX4N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -72.39 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 26.67 0)
+					(length 5.08)
+					(name "PEX_RX5P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 29.21 0)
+					(length 5.08)
+					(name "PEX_RX5N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -74.93 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 24.13 0)
+					(length 5.08)
+					(name "PEX_TX5N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 21.59 0)
+					(length 5.08)
+					(name "PEX_TX5P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 77.47 0)
+					(length 5.08)
+					(name "PEX_RX0P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -77.47 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 31.75 0)
+					(length 5.08)
+					(name "PEX_TX4P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 34.29 0)
+					(length 5.08)
+					(name "PEX_TX4N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -29.21 0)
+					(length 5.08)
+					(name "GPIO2_EC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -80.01 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 90.17 0)
+					(length 5.08)
+					(name "PEX_REFCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 87.63 0)
+					(length 5.08)
+					(name "PEX_REFCLK#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -82.55 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -19.05 0)
+					(length 5.08)
+					(name "DP_A_L3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -21.59 0)
+					(length 5.08)
+					(name "DP_A_L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -52.07 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -85.09 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -13.97 0)
+					(length 5.08)
+					(name "DP_A_L2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -16.51 0)
+					(length 5.08)
+					(name "DP_A_L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 92.71 0)
+					(length 5.08)
+					(name "ID1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 16.51 0)
+					(length 5.08)
+					(name "PEX_RX6P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 19.05 0)
+					(length 5.08)
+					(name "PEX_RX6N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -87.63 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 8.89 0)
+					(length 5.08)
+					(name "PEX_RX7N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "PEX_RX7P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -90.17 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 74.93 0)
+					(length 5.08)
+					(name "PEX_TX0N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "PEX_TX7N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "PEX_TX7P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -92.71 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 11.43 0)
+					(length 5.08)
+					(name "PEX_TX6P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 13.97 0)
+					(length 5.08)
+					(name "PEX_TX6N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 72.39 0)
+					(length 5.08)
+					(name "PEX_TX0P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -54.61 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D-9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Framework-ExpansionBay:Framework-FX-Beam")
+		(at 114.3 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b5462c1-94e8-42a4-84fd-c4003d5c2bb3")
+		(property "Reference" "X1"
+			(at 114.3 15.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Framework-FX-Beam"
+			(at 114.3 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Framework-ExpansionBay:Framework-FX-Beam"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/FrameworkComputer/ExpansionBay/blob/main/Electrical/Dual-channel%2074P%20FXBeam%2C%20length%2027.75mm%20_Rev%202_(Public%20version).pdf"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Framework Laptop 16 FX Beam PCIe interposer for Expansion Bay"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P-68"
+			(uuid "7ad08064-ccce-4afb-bba3-eb5c4e6d106a")
+		)
+		(pin "D-10"
+			(uuid "8b0b03f3-d05f-4e99-b214-a65b910bf378")
+		)
+		(pin "D-16"
+			(uuid "a7a1178f-2535-4c96-8c53-2fae6378924a")
+		)
+		(pin "D-2"
+			(uuid "c7a853af-61f0-4bb8-ae89-39d160e87d35")
+		)
+		(pin "D-30"
+			(uuid "77d540ae-964c-4071-92c7-a68c0c0a7c8e")
+		)
+		(pin "P-72"
+			(uuid "b1161b9f-52cc-4fca-8ea2-f854a74930ae")
+		)
+		(pin "D-20"
+			(uuid "5eae1545-1d0e-4183-9fe4-9dad4e7d2c62")
+		)
+		(pin "D-32"
+			(uuid "53e856c6-9abe-4f56-a9c5-096050a36ad4")
+		)
+		(pin "P-69"
+			(uuid "bb14a46f-f77a-4fd2-a116-ad36df5937eb")
+		)
+		(pin "D-31"
+			(uuid "38a63074-bb9e-4739-b9c3-b01b0d7c4422")
+		)
+		(pin "D-34"
+			(uuid "aafee22f-30a6-47a9-9e44-ed703419012f")
+		)
+		(pin "P-67"
+			(uuid "51e533a9-91cf-4f6d-9106-3c768099a3e7")
+		)
+		(pin "P-73"
+			(uuid "ae38cbe0-389a-4f94-a805-a13f4fef343d")
+		)
+		(pin "D-13"
+			(uuid "089aca13-55b0-463a-889b-810e69999fe0")
+		)
+		(pin "P-58"
+			(uuid "d789bedb-38c9-40ee-aaa4-c84f5f518f20")
+		)
+		(pin "D-21"
+			(uuid "eeb62b85-b008-4ad6-ba3e-fa4615adf05f")
+		)
+		(pin "P-66"
+			(uuid "923a96c9-eb16-4e4f-bc92-557e6857b85c")
+		)
+		(pin "P-56"
+			(uuid "7ce4cd47-ea1e-4c97-b54b-9e5a240b1509")
+		)
+		(pin "P-7"
+			(uuid "a45f83af-b954-4994-b972-05872cf87b68")
+		)
+		(pin "D-12"
+			(uuid "60eb25da-e724-411d-a585-46e5bbbcf9d9")
+		)
+		(pin "P-63"
+			(uuid "879775cf-be13-45a1-802b-fecbe0d07fa8")
+		)
+		(pin "P-65"
+			(uuid "9caed34d-d904-4080-a6a7-26073a3ea7ea")
+		)
+		(pin "D-11"
+			(uuid "c56b7860-220e-40fb-9be7-4750bcec9d70")
+		)
+		(pin "D-27"
+			(uuid "da49cb9a-154a-43b8-82cb-2501ac6bdc4d")
+		)
+		(pin "P-6"
+			(uuid "d673f075-2683-46c4-bf1b-6cfde84b072a")
+		)
+		(pin "D-18"
+			(uuid "d1725909-4899-48b7-b2f4-405d4bf1e41e")
+		)
+		(pin "P-71"
+			(uuid "3ca1a22d-1498-4999-8167-e6994d779eee")
+		)
+		(pin "D-24"
+			(uuid "b122fac5-97ec-43a0-a66f-415309daf202")
+		)
+		(pin "D-33"
+			(uuid "b7245b34-4ef4-4f54-986e-a340964efccc")
+		)
+		(pin "P-57"
+			(uuid "e6141185-f74a-44dc-872f-da6475f8e6bc")
+		)
+		(pin "D-35"
+			(uuid "6f248fd8-2e94-4dd1-b149-0ad6f1936bf6")
+		)
+		(pin "D-36"
+			(uuid "f75e362f-4a6e-4853-8db1-2f31517d5548")
+		)
+		(pin "P-62"
+			(uuid "f4c8e867-bb43-4a96-88cc-28c040071098")
+		)
+		(pin "D-23"
+			(uuid "e5874359-8306-4bf8-a8f3-967242f629fe")
+		)
+		(pin "D-17"
+			(uuid "62e8f2c6-2209-4a4c-87c4-2b6a838e2707")
+		)
+		(pin "D-28"
+			(uuid "a56ff81a-831c-4e31-b102-32c03f693424")
+		)
+		(pin "D-37"
+			(uuid "44e48356-4f7b-4ada-8442-d60276777f09")
+		)
+		(pin "D-39"
+			(uuid "971a5777-d082-4558-9a74-494706d04964")
+		)
+		(pin "D-4"
+			(uuid "e8adf094-6eaf-48ba-be6b-01af5bdba4c0")
+		)
+		(pin "D-40"
+			(uuid "bcf5669a-c52b-465d-9ef7-a665a5d7a4a8")
+		)
+		(pin "P-60"
+			(uuid "d96c432d-60d3-4606-880e-c4b7f8e492d7")
+		)
+		(pin "P-74"
+			(uuid "41958af0-96fa-445f-99e3-a2409f44bccd")
+		)
+		(pin "D-41"
+			(uuid "46b54812-532e-4679-853a-a687d8867a2a")
+		)
+		(pin "D-42"
+			(uuid "9d615409-8bdc-4735-9838-5789ad4b36e4")
+		)
+		(pin "D-43"
+			(uuid "aa7c6ebb-39d2-4ee2-92e4-2f2cce8adc2e")
+		)
+		(pin "D-44"
+			(uuid "3df455c2-760f-4a31-b641-ec8524f0e7dc")
+		)
+		(pin "P-70"
+			(uuid "fa7efc8b-5c47-47e9-9cee-28bfb2890dc1")
+		)
+		(pin "D-1"
+			(uuid "342889b7-917f-40cc-bb83-ddc2d7bc6990")
+		)
+		(pin "D-22"
+			(uuid "60d1fe82-b93a-4316-b158-20a50ac5b070")
+		)
+		(pin "D-38"
+			(uuid "ed189413-3ebd-4536-b2dc-d1450f5c8cf8")
+		)
+		(pin "D-15"
+			(uuid "420d16fe-c7bb-4c23-b090-4a651d02f4e0")
+		)
+		(pin "D-25"
+			(uuid "1da1b5df-a869-4993-b187-a7af15dba9fc")
+		)
+		(pin "P-59"
+			(uuid "7a11065c-42bc-41e4-b1bd-1c8573ce9b40")
+		)
+		(pin "D-45"
+			(uuid "cd9b720a-b08f-47a5-85f0-6783310717c5")
+		)
+		(pin "D-46"
+			(uuid "e8586eb6-9ad2-48d0-b7a3-d84943c8cb39")
+		)
+		(pin "D-26"
+			(uuid "f5423a91-eca1-4c87-bf1b-50796fed247e")
+		)
+		(pin "D-29"
+			(uuid "7cef6bce-8960-496c-b9c8-c93067aae39f")
+		)
+		(pin "D-19"
+			(uuid "baf8b46a-8481-48e0-a64b-b4dcb9403799")
+		)
+		(pin "P-9"
+			(uuid "e7ea7777-178a-423a-b806-5d4e3b536e7b")
+		)
+		(pin "D-3"
+			(uuid "27bf8109-d042-4748-8b5e-5ce8c84a346f")
+		)
+		(pin "P-61"
+			(uuid "c9e92624-ad7a-44e3-be90-227e8aadc54c")
+		)
+		(pin "P-8"
+			(uuid "3f6a7df4-099a-4321-a16b-7eb1096cb1ca")
+		)
+		(pin "D-14"
+			(uuid "77ca4a22-a900-41eb-8da8-0e4c2af6318a")
+		)
+		(pin "P-64"
+			(uuid "6863ad7f-d205-45ae-8067-8dfcb5239d41")
+		)
+		(pin "D-58"
+			(uuid "5d5eca78-e473-485e-89d5-9d78f9bd50c6")
+		)
+		(pin "D-7"
+			(uuid "b23f74a1-e30c-45dc-af28-0d10adc856c3")
+		)
+		(pin "D-52"
+			(uuid "6d872a9b-a1f4-40eb-b60b-54b53d01c453")
+		)
+		(pin "D-70"
+			(uuid "ed1b727c-eeec-4698-8b94-77d66edbd405")
+		)
+		(pin "D-47"
+			(uuid "3ffbe753-fcb5-488c-af25-1d7aa62b432d")
+		)
+		(pin "D-65"
+			(uuid "80edac94-9f89-4a9b-97c2-5bcfe2766fdc")
+		)
+		(pin "D-48"
+			(uuid "d0486ac3-cab8-44b0-a58e-c7818fb1bfee")
+		)
+		(pin "D-59"
+			(uuid "9168f335-4972-404b-ab88-e75d0bc53a12")
+		)
+		(pin "D-74"
+			(uuid "279498ec-b561-45ca-8205-e03af8ef499a")
+		)
+		(pin "D-71"
+			(uuid "f2eb4ab0-ad9c-44ad-a9f0-2f000eb7c1c6")
+		)
+		(pin "D-8"
+			(uuid "99094293-3d60-4636-a423-c476e4eb629e")
+		)
+		(pin "D-53"
+			(uuid "c424e613-6d8b-430a-b856-cf74fb6498d8")
+		)
+		(pin "D-9"
+			(uuid "21fb4ed7-939a-41ae-b9ea-44a4766e2c7b")
+		)
+		(pin "D-54"
+			(uuid "a8b1e370-a796-4cbb-b3b9-673382288c51")
+		)
+		(pin "D-55"
+			(uuid "c95ac167-9f3d-4ac5-bcd0-42e5e22982ac")
+		)
+		(pin "D-69"
+			(uuid "67fb4e25-cd17-484a-a332-1d4961096ecd")
+		)
+		(pin "D-63"
+			(uuid "252f8539-0aed-4b9f-b6dc-da6c0a65905d")
+		)
+		(pin "D-51"
+			(uuid "0f2fb39b-a316-42a1-833f-21b9c42310dd")
+		)
+		(pin "D-67"
+			(uuid "b2a3d301-cc56-4e36-8dc8-0deb0d2c51b9")
+		)
+		(pin "D-61"
+			(uuid "469d45b8-fd5a-4ee9-9939-104092836e78")
+		)
+		(pin "D-64"
+			(uuid "a3448c78-c441-4993-97ad-8d41884877b0")
+		)
+		(pin "D-49"
+			(uuid "ae2c2d94-ca62-486f-ad87-d9bdb64fb213")
+		)
+		(pin "D-50"
+			(uuid "19d63649-8d93-4ecd-b46d-62c25283a62a")
+		)
+		(pin "D-60"
+			(uuid "cf01eb3e-bb73-49dc-8e98-bc35f3efd56c")
+		)
+		(pin "D-57"
+			(uuid "515a372c-6bb5-4665-993a-b9540797e199")
+		)
+		(pin "D-66"
+			(uuid "f75bf067-88e4-4d4e-8ede-8ce9cc27bbbf")
+		)
+		(pin "D-6"
+			(uuid "6da8216b-23e8-4c2f-bf62-4a1f278ece48")
+		)
+		(pin "D-73"
+			(uuid "3da6c447-e8db-4a8e-810b-39e7f2772226")
+		)
+		(pin "D-5"
+			(uuid "b525d238-b20d-4909-b143-e7662196be53")
+		)
+		(pin "D-72"
+			(uuid "4f49ec04-05b1-44f8-a016-81e72c26d37d")
+		)
+		(pin "D-56"
+			(uuid "9b6da850-af3f-4e97-b60b-421b09ea8e3c")
+		)
+		(pin "D-68"
+			(uuid "506b419e-aeb5-4fa6-8dd0-d75f7d3a17a0")
+		)
+		(pin "D-62"
+			(uuid "dbfce873-9ce1-4c87-8be5-9abcd2a2a558")
+		)
+		(pin "P-29"
+			(uuid "5d5645db-4bd0-49d0-aabb-836234855fc8")
+		)
+		(pin "P-30"
+			(uuid "2751d241-a5e1-44ad-bf47-41cb9b170078")
+		)
+		(pin "P-5"
+			(uuid "e2552858-2a24-457e-bb3c-3648cea7b8f6")
+		)
+		(pin "P-36"
+			(uuid "70a6dd66-2d88-4610-847a-7befafcabb08")
+		)
+		(pin "P-16"
+			(uuid "d8607585-4923-47dd-a361-89600d8cb670")
+		)
+		(pin "P-37"
+			(uuid "e802acf0-d153-4a19-be21-a1dc789c48fa")
+		)
+		(pin "P-42"
+			(uuid "80722d58-6f79-44c6-92ac-32dfcc65ea7e")
+		)
+		(pin "P-14"
+			(uuid "784b7a99-6806-47c6-9e5b-5b5ef03e3740")
+		)
+		(pin "P-25"
+			(uuid "1abafa31-b20c-4d22-8a22-fa4ede01902e")
+		)
+		(pin "P-31"
+			(uuid "36e96221-701c-44e0-9320-f0fe63e9546a")
+		)
+		(pin "P-49"
+			(uuid "e56b3627-38ed-46b9-8ff3-73f8fd119699")
+		)
+		(pin "P-40"
+			(uuid "3afe18f3-fe3d-4504-b1e8-ba951fafd462")
+		)
+		(pin "P-50"
+			(uuid "2ae50b43-7515-4efe-91c9-a7cea77b788b")
+		)
+		(pin "P-19"
+			(uuid "d9446a20-0ffe-49fe-9807-cef3eb847299")
+		)
+		(pin "P-39"
+			(uuid "2d2ba9e2-0a1f-4fdc-9336-fda5dd0a622a")
+		)
+		(pin "P-51"
+			(uuid "c630c202-6851-4600-bac7-7e1a2aab1253")
+		)
+		(pin "P-43"
+			(uuid "1ea579e4-ccc1-4b67-a4c9-d22154b312fb")
+		)
+		(pin "P-41"
+			(uuid "890c665d-1c39-4cb6-97df-a451969656c0")
+		)
+		(pin "P-20"
+			(uuid "6ccdfb97-291d-482c-8f10-b89d96222e31")
+		)
+		(pin "P-13"
+			(uuid "4a0552d0-d429-416f-bd68-7afd84f29f8c")
+		)
+		(pin "P-33"
+			(uuid "221a97f6-ca54-4e27-9ece-ce88fd69aa5a")
+		)
+		(pin "P-28"
+			(uuid "563e9dea-c125-4ee9-b237-48fbfbac7816")
+		)
+		(pin "P-46"
+			(uuid "91a6f09c-c366-44c5-adaf-ca5bfc4e2061")
+		)
+		(pin "P-3"
+			(uuid "50ee340c-73f2-46e4-9ce1-b5d35390efc8")
+		)
+		(pin "P-52"
+			(uuid "ce1fadf5-4c03-4c96-afa0-84fb7f7923d2")
+		)
+		(pin "P-53"
+			(uuid "b77cf597-52c8-40c6-86e2-2c321df6ad26")
+		)
+		(pin "P-54"
+			(uuid "1bd795ad-3871-4b8d-af3a-bbb56d76d413")
+		)
+		(pin "P-21"
+			(uuid "7c8edeb7-c545-489c-bbac-d996210288ee")
+		)
+		(pin "P-24"
+			(uuid "5a7b08fa-f7a6-48be-8db5-6b5824cee468")
+		)
+		(pin "P-55"
+			(uuid "e3685e5a-ef4c-42a9-b822-5f1db5534b92")
+		)
+		(pin "P-34"
+			(uuid "e489780d-6933-4761-b3f8-bb485817182d")
+		)
+		(pin "P-12"
+			(uuid "4cfe721c-3873-4ce4-8405-866f9cb2cdf8")
+		)
+		(pin "P-15"
+			(uuid "76f21a75-44df-44ba-8b7d-bccefdc9b0d2")
+		)
+		(pin "P-17"
+			(uuid "d3ed8072-59a9-4cd1-a9a0-13fa03df911a")
+		)
+		(pin "P-18"
+			(uuid "c84e68b3-77bf-4ac1-a4f0-9fcac0843f42")
+		)
+		(pin "P-32"
+			(uuid "ca2aafd1-bee2-4727-afe5-c3241cea17d9")
+		)
+		(pin "P-1"
+			(uuid "f9944c3a-5269-4728-b5f4-3ad240dd0dee")
+		)
+		(pin "P-27"
+			(uuid "da1acc21-e25e-4816-9587-e154a46cc6ca")
+		)
+		(pin "P-35"
+			(uuid "e997ee43-6ede-41eb-b249-4fecf7369127")
+		)
+		(pin "P-2"
+			(uuid "a588aca8-419e-4870-94bb-314c5e938a9e")
+		)
+		(pin "P-38"
+			(uuid "e746e21e-a71b-4e33-b059-001c516b8593")
+		)
+		(pin "P-44"
+			(uuid "74c2fa1c-7232-4198-9af2-d58943edbde0")
+		)
+		(pin "P-26"
+			(uuid "89feb9d5-cf96-4094-9be6-03681ccea1d1")
+		)
+		(pin "P-47"
+			(uuid "30f889d5-fefc-451c-a416-0601f0adb85c")
+		)
+		(pin "P-4"
+			(uuid "f87974a9-3c05-42aa-b83b-c7f1c934dcb3")
+		)
+		(pin "P-23"
+			(uuid "5a17ae5d-2769-43c1-a427-57b42a60e5ce")
+		)
+		(pin "P-45"
+			(uuid "5281826e-9428-478b-b98b-15baef229c9e")
+		)
+		(pin "P-10"
+			(uuid "0ff3ddde-10f3-42f5-92dc-9f0351b3a83a")
+		)
+		(pin "P-48"
+			(uuid "0d4c82bf-c10f-4966-943b-8ccca35aee12")
+		)
+		(pin "P-11"
+			(uuid "1bc67777-45ff-4b0e-a6fd-858e1355a6f1")
+		)
+		(pin "P-22"
+			(uuid "862ac785-5095-431a-8bac-4465ff841b17")
+		)
+		(instances
+			(project "Framework-ExpansionBay-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 264.16 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b5292df-4884-40f9-bf96-e0f26d851aac")
+		(property "Reference" "X2"
+			(at 266.7 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan0"
+			(at 266.7 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Framework-ExpansionBay:Molex-52746-0471"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/527460471?display=pdf"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "62b0341f-0ca0-457a-8d54-8073e6b3e966")
+		)
+		(pin "1"
+			(uuid "beece2a6-2a6b-410b-943e-9227dc5f0aec")
+		)
+		(pin "4"
+			(uuid "abae5573-743c-49a3-8708-4e86675f749a")
+		)
+		(pin "2"
+			(uuid "56be4e8e-84b6-4f6e-87f6-abf533a49fa4")
+		)
+		(instances
+			(project "Framework-ExpansionBay-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 264.16 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86a358e8-4fd6-4d76-92ca-155f4faa8cd5")
+		(property "Reference" "X3"
+			(at 266.7 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan1"
+			(at 266.7 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Framework-ExpansionBay:Molex-52746-0471"
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/527460471?display=pdf"
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "276200d2-8e57-41ca-8e72-60b8312dda13")
+		)
+		(pin "1"
+			(uuid "cfd7bc9c-034c-4c22-ac34-6e20c56c45d4")
+		)
+		(pin "4"
+			(uuid "cf77316a-fe1e-4158-9d13-9fc35c9c27ec")
+		)
+		(pin "2"
+			(uuid "ba82f5da-fefd-4573-804a-cd67ea4e7d41")
+		)
+		(instances
+			(project "Framework-ExpansionBay-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Framework-ExpansionBay:Framework-FX-Beam")
+		(at 115.57 105.41 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde57606-839f-4ea1-8e4d-b2303bc0d7cf")
+		(property "Reference" "X1"
+			(at 115.57 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Framework-FX-Beam"
+			(at 115.57 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Framework-ExpansionBay:Framework-FX-Beam"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/FrameworkComputer/ExpansionBay/blob/main/Electrical/Dual-channel%2074P%20FXBeam%2C%20length%2027.75mm%20_Rev%202_(Public%20version).pdf"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Framework Laptop 16 FX Beam PCIe interposer for Expansion Bay"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P-68"
+			(uuid "7ad08064-ccce-4afb-bba3-eb5c4e6d106b")
+		)
+		(pin "D-10"
+			(uuid "8b0b03f3-d05f-4e99-b214-a65b910bf379")
+		)
+		(pin "D-16"
+			(uuid "a7a1178f-2535-4c96-8c53-2fae6378924b")
+		)
+		(pin "D-2"
+			(uuid "c7a853af-61f0-4bb8-ae89-39d160e87d36")
+		)
+		(pin "D-30"
+			(uuid "77d540ae-964c-4071-92c7-a68c0c0a7c8f")
+		)
+		(pin "P-72"
+			(uuid "b1161b9f-52cc-4fca-8ea2-f854a74930af")
+		)
+		(pin "D-20"
+			(uuid "5eae1545-1d0e-4183-9fe4-9dad4e7d2c63")
+		)
+		(pin "D-32"
+			(uuid "53e856c6-9abe-4f56-a9c5-096050a36ad5")
+		)
+		(pin "P-69"
+			(uuid "bb14a46f-f77a-4fd2-a116-ad36df5937ec")
+		)
+		(pin "D-31"
+			(uuid "38a63074-bb9e-4739-b9c3-b01b0d7c4423")
+		)
+		(pin "D-34"
+			(uuid "aafee22f-30a6-47a9-9e44-ed7034190130")
+		)
+		(pin "P-67"
+			(uuid "51e533a9-91cf-4f6d-9106-3c768099a3e8")
+		)
+		(pin "P-73"
+			(uuid "ae38cbe0-389a-4f94-a805-a13f4fef343e")
+		)
+		(pin "D-13"
+			(uuid "089aca13-55b0-463a-889b-810e69999fe1")
+		)
+		(pin "P-58"
+			(uuid "d789bedb-38c9-40ee-aaa4-c84f5f518f21")
+		)
+		(pin "D-21"
+			(uuid "eeb62b85-b008-4ad6-ba3e-fa4615adf060")
+		)
+		(pin "P-66"
+			(uuid "923a96c9-eb16-4e4f-bc92-557e6857b85d")
+		)
+		(pin "P-56"
+			(uuid "7ce4cd47-ea1e-4c97-b54b-9e5a240b150a")
+		)
+		(pin "P-7"
+			(uuid "a45f83af-b954-4994-b972-05872cf87b69")
+		)
+		(pin "D-12"
+			(uuid "60eb25da-e724-411d-a585-46e5bbbcf9da")
+		)
+		(pin "P-63"
+			(uuid "879775cf-be13-45a1-802b-fecbe0d07fa9")
+		)
+		(pin "P-65"
+			(uuid "9caed34d-d904-4080-a6a7-26073a3ea7eb")
+		)
+		(pin "D-11"
+			(uuid "c56b7860-220e-40fb-9be7-4750bcec9d71")
+		)
+		(pin "D-27"
+			(uuid "da49cb9a-154a-43b8-82cb-2501ac6bdc4e")
+		)
+		(pin "P-6"
+			(uuid "d673f075-2683-46c4-bf1b-6cfde84b072b")
+		)
+		(pin "D-18"
+			(uuid "d1725909-4899-48b7-b2f4-405d4bf1e41f")
+		)
+		(pin "P-71"
+			(uuid "3ca1a22d-1498-4999-8167-e6994d779eef")
+		)
+		(pin "D-24"
+			(uuid "b122fac5-97ec-43a0-a66f-415309daf203")
+		)
+		(pin "D-33"
+			(uuid "b7245b34-4ef4-4f54-986e-a340964efccd")
+		)
+		(pin "P-57"
+			(uuid "e6141185-f74a-44dc-872f-da6475f8e6bd")
+		)
+		(pin "D-35"
+			(uuid "6f248fd8-2e94-4dd1-b149-0ad6f1936bf7")
+		)
+		(pin "D-36"
+			(uuid "f75e362f-4a6e-4853-8db1-2f31517d5549")
+		)
+		(pin "P-62"
+			(uuid "f4c8e867-bb43-4a96-88cc-28c040071099")
+		)
+		(pin "D-23"
+			(uuid "e5874359-8306-4bf8-a8f3-967242f629ff")
+		)
+		(pin "D-17"
+			(uuid "62e8f2c6-2209-4a4c-87c4-2b6a838e2708")
+		)
+		(pin "D-28"
+			(uuid "a56ff81a-831c-4e31-b102-32c03f693425")
+		)
+		(pin "D-37"
+			(uuid "44e48356-4f7b-4ada-8442-d60276777f0a")
+		)
+		(pin "D-39"
+			(uuid "971a5777-d082-4558-9a74-494706d04965")
+		)
+		(pin "D-4"
+			(uuid "e8adf094-6eaf-48ba-be6b-01af5bdba4c1")
+		)
+		(pin "D-40"
+			(uuid "bcf5669a-c52b-465d-9ef7-a665a5d7a4a9")
+		)
+		(pin "P-60"
+			(uuid "d96c432d-60d3-4606-880e-c4b7f8e492d8")
+		)
+		(pin "P-74"
+			(uuid "41958af0-96fa-445f-99e3-a2409f44bcce")
+		)
+		(pin "D-41"
+			(uuid "46b54812-532e-4679-853a-a687d8867a2b")
+		)
+		(pin "D-42"
+			(uuid "9d615409-8bdc-4735-9838-5789ad4b36e5")
+		)
+		(pin "D-43"
+			(uuid "aa7c6ebb-39d2-4ee2-92e4-2f2cce8adc2f")
+		)
+		(pin "D-44"
+			(uuid "3df455c2-760f-4a31-b641-ec8524f0e7dd")
+		)
+		(pin "P-70"
+			(uuid "fa7efc8b-5c47-47e9-9cee-28bfb2890dc2")
+		)
+		(pin "D-1"
+			(uuid "342889b7-917f-40cc-bb83-ddc2d7bc6991")
+		)
+		(pin "D-22"
+			(uuid "60d1fe82-b93a-4316-b158-20a50ac5b071")
+		)
+		(pin "D-38"
+			(uuid "ed189413-3ebd-4536-b2dc-d1450f5c8cf9")
+		)
+		(pin "D-15"
+			(uuid "420d16fe-c7bb-4c23-b090-4a651d02f4e1")
+		)
+		(pin "D-25"
+			(uuid "1da1b5df-a869-4993-b187-a7af15dba9fd")
+		)
+		(pin "P-59"
+			(uuid "7a11065c-42bc-41e4-b1bd-1c8573ce9b41")
+		)
+		(pin "D-45"
+			(uuid "cd9b720a-b08f-47a5-85f0-6783310717c6")
+		)
+		(pin "D-46"
+			(uuid "e8586eb6-9ad2-48d0-b7a3-d84943c8cb3a")
+		)
+		(pin "D-26"
+			(uuid "f5423a91-eca1-4c87-bf1b-50796fed247f")
+		)
+		(pin "D-29"
+			(uuid "7cef6bce-8960-496c-b9c8-c93067aae3a0")
+		)
+		(pin "D-19"
+			(uuid "baf8b46a-8481-48e0-a64b-b4dcb940379a")
+		)
+		(pin "P-9"
+			(uuid "e7ea7777-178a-423a-b806-5d4e3b536e7c")
+		)
+		(pin "D-3"
+			(uuid "27bf8109-d042-4748-8b5e-5ce8c84a3470")
+		)
+		(pin "P-61"
+			(uuid "c9e92624-ad7a-44e3-be90-227e8aadc54d")
+		)
+		(pin "P-8"
+			(uuid "3f6a7df4-099a-4321-a16b-7eb1096cb1cb")
+		)
+		(pin "D-14"
+			(uuid "77ca4a22-a900-41eb-8da8-0e4c2af6318b")
+		)
+		(pin "P-64"
+			(uuid "6863ad7f-d205-45ae-8067-8dfcb5239d42")
+		)
+		(pin "D-58"
+			(uuid "5d5eca78-e473-485e-89d5-9d78f9bd50c7")
+		)
+		(pin "D-7"
+			(uuid "b23f74a1-e30c-45dc-af28-0d10adc856c4")
+		)
+		(pin "D-52"
+			(uuid "6d872a9b-a1f4-40eb-b60b-54b53d01c454")
+		)
+		(pin "D-70"
+			(uuid "ed1b727c-eeec-4698-8b94-77d66edbd406")
+		)
+		(pin "D-47"
+			(uuid "3ffbe753-fcb5-488c-af25-1d7aa62b432e")
+		)
+		(pin "D-65"
+			(uuid "80edac94-9f89-4a9b-97c2-5bcfe2766fdd")
+		)
+		(pin "D-48"
+			(uuid "d0486ac3-cab8-44b0-a58e-c7818fb1bfef")
+		)
+		(pin "D-59"
+			(uuid "9168f335-4972-404b-ab88-e75d0bc53a13")
+		)
+		(pin "D-74"
+			(uuid "279498ec-b561-45ca-8205-e03af8ef499b")
+		)
+		(pin "D-71"
+			(uuid "f2eb4ab0-ad9c-44ad-a9f0-2f000eb7c1c7")
+		)
+		(pin "D-8"
+			(uuid "99094293-3d60-4636-a423-c476e4eb629f")
+		)
+		(pin "D-53"
+			(uuid "c424e613-6d8b-430a-b856-cf74fb6498d9")
+		)
+		(pin "D-9"
+			(uuid "21fb4ed7-939a-41ae-b9ea-44a4766e2c7c")
+		)
+		(pin "D-54"
+			(uuid "a8b1e370-a796-4cbb-b3b9-673382288c52")
+		)
+		(pin "D-55"
+			(uuid "c95ac167-9f3d-4ac5-bcd0-42e5e22982ad")
+		)
+		(pin "D-69"
+			(uuid "67fb4e25-cd17-484a-a332-1d4961096ece")
+		)
+		(pin "D-63"
+			(uuid "252f8539-0aed-4b9f-b6dc-da6c0a65905e")
+		)
+		(pin "D-51"
+			(uuid "0f2fb39b-a316-42a1-833f-21b9c42310de")
+		)
+		(pin "D-67"
+			(uuid "b2a3d301-cc56-4e36-8dc8-0deb0d2c51ba")
+		)
+		(pin "D-61"
+			(uuid "469d45b8-fd5a-4ee9-9939-104092836e79")
+		)
+		(pin "D-64"
+			(uuid "a3448c78-c441-4993-97ad-8d41884877b1")
+		)
+		(pin "D-49"
+			(uuid "ae2c2d94-ca62-486f-ad87-d9bdb64fb214")
+		)
+		(pin "D-50"
+			(uuid "19d63649-8d93-4ecd-b46d-62c25283a62b")
+		)
+		(pin "D-60"
+			(uuid "cf01eb3e-bb73-49dc-8e98-bc35f3efd56d")
+		)
+		(pin "D-57"
+			(uuid "515a372c-6bb5-4665-993a-b9540797e19a")
+		)
+		(pin "D-66"
+			(uuid "f75bf067-88e4-4d4e-8ede-8ce9cc27bbc0")
+		)
+		(pin "D-6"
+			(uuid "6da8216b-23e8-4c2f-bf62-4a1f278ece49")
+		)
+		(pin "D-73"
+			(uuid "3da6c447-e8db-4a8e-810b-39e7f2772227")
+		)
+		(pin "D-5"
+			(uuid "b525d238-b20d-4909-b143-e7662196be54")
+		)
+		(pin "D-72"
+			(uuid "4f49ec04-05b1-44f8-a016-81e72c26d37e")
+		)
+		(pin "D-56"
+			(uuid "9b6da850-af3f-4e97-b60b-421b09ea8e3d")
+		)
+		(pin "D-68"
+			(uuid "506b419e-aeb5-4fa6-8dd0-d75f7d3a17a1")
+		)
+		(pin "D-62"
+			(uuid "dbfce873-9ce1-4c87-8be5-9abcd2a2a559")
+		)
+		(pin "P-29"
+			(uuid "5d5645db-4bd0-49d0-aabb-836234855fc9")
+		)
+		(pin "P-30"
+			(uuid "2751d241-a5e1-44ad-bf47-41cb9b170079")
+		)
+		(pin "P-5"
+			(uuid "e2552858-2a24-457e-bb3c-3648cea7b8f7")
+		)
+		(pin "P-36"
+			(uuid "70a6dd66-2d88-4610-847a-7befafcabb09")
+		)
+		(pin "P-16"
+			(uuid "d8607585-4923-47dd-a361-89600d8cb671")
+		)
+		(pin "P-37"
+			(uuid "e802acf0-d153-4a19-be21-a1dc789c48fb")
+		)
+		(pin "P-42"
+			(uuid "80722d58-6f79-44c6-92ac-32dfcc65ea7f")
+		)
+		(pin "P-14"
+			(uuid "784b7a99-6806-47c6-9e5b-5b5ef03e3741")
+		)
+		(pin "P-25"
+			(uuid "1abafa31-b20c-4d22-8a22-fa4ede01902f")
+		)
+		(pin "P-31"
+			(uuid "36e96221-701c-44e0-9320-f0fe63e9546b")
+		)
+		(pin "P-49"
+			(uuid "e56b3627-38ed-46b9-8ff3-73f8fd11969a")
+		)
+		(pin "P-40"
+			(uuid "3afe18f3-fe3d-4504-b1e8-ba951fafd463")
+		)
+		(pin "P-50"
+			(uuid "2ae50b43-7515-4efe-91c9-a7cea77b788c")
+		)
+		(pin "P-19"
+			(uuid "d9446a20-0ffe-49fe-9807-cef3eb84729a")
+		)
+		(pin "P-39"
+			(uuid "2d2ba9e2-0a1f-4fdc-9336-fda5dd0a622b")
+		)
+		(pin "P-51"
+			(uuid "c630c202-6851-4600-bac7-7e1a2aab1254")
+		)
+		(pin "P-43"
+			(uuid "1ea579e4-ccc1-4b67-a4c9-d22154b312fc")
+		)
+		(pin "P-41"
+			(uuid "890c665d-1c39-4cb6-97df-a451969656c1")
+		)
+		(pin "P-20"
+			(uuid "6ccdfb97-291d-482c-8f10-b89d96222e32")
+		)
+		(pin "P-13"
+			(uuid "4a0552d0-d429-416f-bd68-7afd84f29f8d")
+		)
+		(pin "P-33"
+			(uuid "221a97f6-ca54-4e27-9ece-ce88fd69aa5b")
+		)
+		(pin "P-28"
+			(uuid "563e9dea-c125-4ee9-b237-48fbfbac7817")
+		)
+		(pin "P-46"
+			(uuid "91a6f09c-c366-44c5-adaf-ca5bfc4e2062")
+		)
+		(pin "P-3"
+			(uuid "50ee340c-73f2-46e4-9ce1-b5d35390efc9")
+		)
+		(pin "P-52"
+			(uuid "ce1fadf5-4c03-4c96-afa0-84fb7f7923d3")
+		)
+		(pin "P-53"
+			(uuid "b77cf597-52c8-40c6-86e2-2c321df6ad27")
+		)
+		(pin "P-54"
+			(uuid "1bd795ad-3871-4b8d-af3a-bbb56d76d414")
+		)
+		(pin "P-21"
+			(uuid "7c8edeb7-c545-489c-bbac-d996210288ef")
+		)
+		(pin "P-24"
+			(uuid "5a7b08fa-f7a6-48be-8db5-6b5824cee469")
+		)
+		(pin "P-55"
+			(uuid "e3685e5a-ef4c-42a9-b822-5f1db5534b93")
+		)
+		(pin "P-34"
+			(uuid "e489780d-6933-4761-b3f8-bb485817182e")
+		)
+		(pin "P-12"
+			(uuid "4cfe721c-3873-4ce4-8405-866f9cb2cdf9")
+		)
+		(pin "P-15"
+			(uuid "76f21a75-44df-44ba-8b7d-bccefdc9b0d3")
+		)
+		(pin "P-17"
+			(uuid "d3ed8072-59a9-4cd1-a9a0-13fa03df911b")
+		)
+		(pin "P-18"
+			(uuid "c84e68b3-77bf-4ac1-a4f0-9fcac0843f43")
+		)
+		(pin "P-32"
+			(uuid "ca2aafd1-bee2-4727-afe5-c3241cea17da")
+		)
+		(pin "P-1"
+			(uuid "f9944c3a-5269-4728-b5f4-3ad240dd0def")
+		)
+		(pin "P-27"
+			(uuid "da1acc21-e25e-4816-9587-e154a46cc6cb")
+		)
+		(pin "P-35"
+			(uuid "e997ee43-6ede-41eb-b249-4fecf7369128")
+		)
+		(pin "P-2"
+			(uuid "a588aca8-419e-4870-94bb-314c5e938a9f")
+		)
+		(pin "P-38"
+			(uuid "e746e21e-a71b-4e33-b059-001c516b8594")
+		)
+		(pin "P-44"
+			(uuid "74c2fa1c-7232-4198-9af2-d58943edbde1")
+		)
+		(pin "P-26"
+			(uuid "89feb9d5-cf96-4094-9be6-03681ccea1d2")
+		)
+		(pin "P-47"
+			(uuid "30f889d5-fefc-451c-a416-0601f0adb85d")
+		)
+		(pin "P-4"
+			(uuid "f87974a9-3c05-42aa-b83b-c7f1c934dcb4")
+		)
+		(pin "P-23"
+			(uuid "5a17ae5d-2769-43c1-a427-57b42a60e5cf")
+		)
+		(pin "P-45"
+			(uuid "5281826e-9428-478b-b98b-15baef229c9f")
+		)
+		(pin "P-10"
+			(uuid "0ff3ddde-10f3-42f5-92dc-9f0351b3a83b")
+		)
+		(pin "P-48"
+			(uuid "0d4c82bf-c10f-4966-943b-8ccca35aee13")
+		)
+		(pin "P-11"
+			(uuid "1bc67777-45ff-4b0e-a6fd-858e1355a6f2")
+		)
+		(pin "P-22"
+			(uuid "862ac785-5095-431a-8bac-4465ff841b18")
+		)
+		(instances
+			(project "Framework-ExpansionBay-Module"
+				(path "/bbb5f505-87d6-424e-99bb-0bdaee5adea4"
+					(reference "X1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Framework-ExpansionBay-IOModule")(type "KiCad")(uri "/home/florian/KiCad/Framework-ExpansionBay/ExpansionBay ExtensionCard Module/Framework-ExpansionBay-IOModule.kicad_sym")(options "")(descr ""))
+)
